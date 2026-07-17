@@ -57,16 +57,6 @@ python main.py
 
 The application will automatically request UAC elevation if not running as Administrator.
 
-## GitHub Deployment
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: ApexHunter EDR engine"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/ApexHunter.git
-git push -u origin main
-```
 
 ## Compatibility
 
