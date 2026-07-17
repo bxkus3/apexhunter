@@ -36,7 +36,7 @@ apexhunter/
 
 ```powershell
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/ApexHunter.git
+git clone https://github.com/bxkus3/ApexHunter.git
 cd ApexHunter
 
 # Create virtual environment
