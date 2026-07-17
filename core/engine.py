@@ -55,7 +55,7 @@ class ScanEngine:
     """
 
     SYSTEM_PROCESS_PATHS = {
-        "svchost.exe": [r"C:\Windows\System32\", r"C:\Windows\SysWOW64\"],
+        "svchost.exe": ["C:\\Windows\\System32\\", "C:\\Windows\\SysWOW64\\"],
         "lsass.exe": [r"C:\Windows\System32\"],
         "services.exe": [r"C:\Windows\System32\"],
         "smss.exe": [r"C:\Windows\System32\"],
