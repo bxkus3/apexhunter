@@ -1,8 +1,16 @@
-Markdown
-
 # ApexHunter
 
 Enterprise-grade Endpoint Detection and Response (EDR) threat hunting engine for Windows environments. ApexHunter performs asynchronous, non-disruptive, multi-layered inspection across active system processes and Windows services to identify indicators of compromise (IoCs), Remote Access Trojans (RATs), code injection, and memory anomalies.
+
+## Developer Note & Disclaimer (False Positives)
+
+**Important:** This project is currently a **learning experiment**. I am still in the process of mastering Python, advanced Win32 API integration, and low-level Windows internals. 
+
+Because the heuristic engine rules are currently under active development and highly aggressive, **expect significant False Positives (FPs)**. The engine will likely flag critical, legitimate Windows core processes (such as `wininit.exe`) as malicious due to their native low-level behaviors (like system RPC listeners, missing parent processes, or high-privilege imports). 
+
+Apologies for the false alarms—the scoring matrix and whitelisting capabilities are continuously being tuned and refined as I learn how to properly handle native OS telemetry!
+
+---
 
 ## Core Features
 
